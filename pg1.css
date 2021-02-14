@@ -49,47 +49,60 @@
     transform: translate(-50%, -50%);
     user-select: none;
 }
+.center h1, .center h2, .center .buttons {
+    margin-top: 150px;
+}
+
 .center h1 {
     color: #922A27;
-    font-size: 60px;
+    font-size: 48px;
     font-weight: bold;
     width: absolute;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 450px;
     font-family: 'Cabin Sketch';
 }
 .center h2 {
     color: white;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
     width: absolute;
-    margin-top: 60px;
+    margin-top: 15px;
     text-align: center;
     font-family: 'Mukta';
 }
-.center .buttons {
-    margin: 35px 365px;
-    margin-top: 80px;
-    width: absolute;
-}
-.buttons button{
-    height: 50px;
-    width: 150px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-    background: #922A27;
-    border: 1px solid #922A27;
-    outline: none;
-    cursor: pointer;
-    border-radius: 25px;
-}
-.buttons button:hover{
-    background: #48696C;
-}
-
 .logo {    
     position: absolute;
     margin-right: 75%;
+}
+
+.door1 {
+    position: center;
+    height: 100px;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: 25px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
 
 }
+.door2 {
+    position: center;
+    height: 100px;
+    width: 500px;
+    margin-left: 250px;
+    margin-top: -390px;
+}
+
+.door1, .door2, .door3 {
+   align-content: center;
+   margin-left: 230px;
+}
+
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }  
