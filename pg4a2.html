@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Time Traveling Expirement</title>
+	<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
+	<link rel="stylesheet" href="pg4a2.css">
+
+</head>
+</div>
+<body>
+    <h1 data-text="Simulation has ended... Restart system."><span>Simulation has ended... Restart system.</span></h1>
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/page-transition.js"></script>
+    
+    
+    <script>
+        // automatically moves away from this page after 3 seconds
+        $(document).ready(() => {
+           setTimeout(() => {
+               leavePage('pg1.html')
+           }, 5000) 
+        });
+    </script>
+
+</body>

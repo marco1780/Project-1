@@ -6,7 +6,7 @@
     margin: 0;
 }
 .wrapper {
-    background: url(images/clouds1.jpg) no-repeat;
+    background: url(images/black.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -92,4 +92,8 @@
     position: absolute;
     margin-right: 75%;
 
+}
+
+#music{
+    display: none;
 }
