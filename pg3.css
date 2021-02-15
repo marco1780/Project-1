@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url(images/yellow.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,4)
+}
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 13px;
+    font-family: 'Mukta';
+} 
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #922A27;
+    border-radius: 2px;
+}
+
+.center h1, .center h2 {
+    margin-left: 8%;
+}
+
+.center h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Cabin Sketch';
+    width: 30%;
+    margin-top: -4%;
+}
+.center h2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'Mukta';
+    float: left;
+}
+.logo {    
+    position: absolute;
+    margin-right: 75%;
+}
+
+.img1 {
+    position: center;
+    height: 50px;
+    width: 450px;
+    margin-left: 780px;
+    margin-top: 85px;
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+.center .buttons {
+    margin: 30px 115px;
+    margin-top: 315px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #922A27;
+    border: 1px solid #922A27;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons button:hover{
+    background: #48696C;
+}
+
+
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }  
+}
