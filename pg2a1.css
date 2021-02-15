@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper {
+    background: url(images/clouds1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,4)
+}
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 6px 13px;
+    font-family: 'Mukta';
+} 
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #922A27;
+    border-radius: 2px;
+}
+
+.center h1, .center h2 {
+    margin-left: 8%;
+}
+
+.center h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Cabin Sketch';
+    width: 30%;
+    margin-top: -2%;
+}
+.logo {    
+    position: absolute;
+    margin-right: 75%;
+}
+
+.img1 {
+    position: center;
+    height: 125px;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1{
+	color: white;
+	font-size: 70px;
+	width: 900px;
+	font-weight: bold;
+	text-align: center;
+}
+.center h2{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 0px;
+	width: 885px;
+	text-align: center;
+}
+.center .buttons{
+	margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #922A27;
+    border: 1px solid #922A27;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+.buttons .btn2{
+	margin-left: 25px;
+    margin-top: 325px;
+}
+.buttons button:hover{
+    background: #48696C;
+}
+
+.center h2{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 100px;
+	width: 885px;
+	text-align: left;
+    animation: blur .10s ease-out infinite;
+    text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;
+  }
+}
