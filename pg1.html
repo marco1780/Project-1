@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Time Traveling Expirement</title>
 	<link rel="icon" href="images/favicon.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" href="pg1.css">
@@ -10,36 +11,38 @@
 <body>
 	<div class="wrapper">
 		<nav class="navbar">
-			<img class="logo" src="images/logo.png">
+			<img class="logo" src="images/logo.png" alt="Website Logo">
 			<ul>
-				<li><a href="pg2.html">Door 1<a></li>
-					<li><a class="button page-transition"href="pg4.html">Door 2<a></li>
-						<li><a href="pg3.html">Door 3<a></li>
-				<li><a class="none" href="index.html">Home</a></li>
-				<li><a href="about.html">About<a></li>
-
+			<li><a href="pg2.html">Door 1<a></li>
+			<li><a class="button page-transition"href="pg4.html">Door 2<a></li>
+			<li><a href="pg3.html">Door 3<a></li>
+			<li><a class="none" href="index.html">Home</a></li>
+			<li><a href="about.html">About<a></li>
 			</ul>
 		</nav>
+
         <div class="page-container">
 
             <div class="door1">
-                <a href="pg2.html"><img src="images/door1.svg"></a>
+            <a href="pg2.html"><img src="images/door1.svg" alt="Left Door"></a>
             
             <div class="door2">
-                <a href="index.html"><img src="images/door2.svg"></a>
+            <a href="index.html"><img src="images/door2.svg" alt="Middle Door"></a>
 
-                <div class="door2">
-                    <a href="pg3.html"><img src="images/door3.svg"></a>
+            <div class="door2">
+            <a href="pg3.html"><img src="images/door3.svg" alt="Right Door">></a>
             </div>
                 
             </div>
         </div>
+		
 		<div class="center">
 			<h1>Please Pick a Door...</h1>
 			<h2>Each door has been carefully designed to show a glimpse of the world's past or present. Good luck!</h2>
 		</div>
 	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script src="js/page-transition.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/page-transition.js"></script>
 
 </body>
